@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Upload, Image as ImageIcon, Download, RefreshCcw, AlertCircle, CheckCircle2, ChevronRight } from 'lucide-react';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://bg-remover-m1bv-91qye8gzl-iturbs1770-2897s-projects.vercel.app';
 
 function App() {
   const [selectedImage, setSelectedImage] = useState(null);
